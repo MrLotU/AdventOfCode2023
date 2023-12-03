@@ -9,7 +9,9 @@ if len(a) > 1:
     d = int(a[1])
 
 
-TEMPLATE = """test_input = ''''''
+TEMPLATE = """import re
+
+test_input = ''''''
 
 with open('inputs/{d}.txt', 'r') as f:
     lines = f.read()
